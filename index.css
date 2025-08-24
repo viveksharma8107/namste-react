@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.logo{
+    height: 80px;
+}
+
+.nav-items>ul{
+    display: flex;
+    list-style-type: none;
+    >li{
+        padding: 10px;
+    }
+}
+
+.res-card{
+  width:300px;
+  border: 1px solid grey;
+  padding: 8px;
+  background-color: lightgrey;
+  margin: 4px;
+  height: 96%;
+}
+
+.shimmer-card{
+  width:300px;
+  height: 400px;
+  padding: 8px;
+  background-color: lightgrey;
+  margin: 4px;
+}
+
+.res-logo{
+    width: 100%;
+}
+
+.search{
+    width: 100%;
+    padding: 8px;
+    background-color: lightyellow;
+    margin: 10px;
+    display: flex;
+}
+
+.search-input{
+ width: 100%;
+}
+
+.res-container{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+}
+
+
+.filter{
+    min-width: 150px;
+    align-content: center;
+}
+
+.filter-btn{
+    padding: 8px;
+    border-radius: 4px;
+    background: cadetblue;
+    border: 1px solid cadetblue;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.login-btn{
+    padding: 6px;
+    min-width: 91px;
+    margin-left: 20px;
+    height: 36px;
+    align-self: center;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background: #a52a2a;
+    cursor: pointer;
+}
+
+.user-card{
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: azure;
+}
